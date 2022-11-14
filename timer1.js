@@ -5,8 +5,7 @@ for (i of args) {
   } else {
     let seconds = i * 1000;
     setTimeout(() => {
-      process.stdout.write(".");
+      process.stdout.write('.\n');
     }, seconds);
   }
- 
-}
+};
